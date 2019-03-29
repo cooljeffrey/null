@@ -5,8 +5,8 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 
-	"github.com/volatiletech/null/convert"
-	"github.com/volatiletech/sqlboiler/randomize"
+	"github.com/cooljeffrey/null/convert"
+	"github.com/cooljeffrey/sqlboiler/randomize"
 )
 
 // String is a nullable string. It supports SQL and JSON serialization.
